@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2791532112625308282}
   - component: {fileID: 2056793866288371727}
   m_Layer: 0
-  m_Name: Enemy 6
+  m_Name: Enemy 20
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87791fbf17e55334e8b0de802ecf803f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movespeed: 10
+  movespeed: 20
 --- !u!61 &2791532112625308282
 BoxCollider2D:
   m_ObjectHideFlags: 0

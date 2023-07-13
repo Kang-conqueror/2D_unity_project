@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2791532112625308282}
   - component: {fileID: 2056793866288371727}
   m_Layer: 0
-  m_Name: Enemy 2
+  m_Name: Enemy 12
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33,7 +33,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &235355282185378638
 SpriteRenderer:
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: -1683638403, guid: cfdad87531c194b4fb6c41e76925299b, type: 3}
+  m_Sprite: {fileID: 1240088486, guid: cfdad87531c194b4fb6c41e76925299b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87791fbf17e55334e8b0de802ecf803f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movespeed: 10
+  movespeed: 12
 --- !u!61 &2791532112625308282
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -132,18 +132,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.024985254, y: 0}
+  m_Offset: {x: -0.009431183, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.7, y: 1.6}
+    oldSize: {x: 0.53333336, y: 1.6333333}
     newSize: {x: 0.56666666, y: 1.6666666}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.737712, y: 1.6666666}
+  m_Size: {x: 0.6987041, y: 1.6666666}
   m_EdgeRadius: 0
 --- !u!50 &2056793866288371727
 Rigidbody2D:

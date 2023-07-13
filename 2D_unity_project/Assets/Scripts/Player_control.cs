@@ -22,6 +22,11 @@ public class Player_control : MonoBehaviour
     
     private float last_shoot = 0f;
 
+
+    [SerializeField]
+    private float tox_length = 4.5f;
+
+
     // Start is called before the first frame update
     //void Start()
     // {
@@ -59,7 +64,7 @@ public class Player_control : MonoBehaviour
         //마우스로 캐릭터를 움직이게끔 하는 코드
         Vector3 mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        float toX = Mathf.Clamp(mouse.x, -2.5f, 2.5f);
+        float toX = Mathf.Clamp(mouse.x, tox_length * -1, tox_length);
 
 
         transform.position = new Vector3(toX, transform.position.y, transform.position.z);
