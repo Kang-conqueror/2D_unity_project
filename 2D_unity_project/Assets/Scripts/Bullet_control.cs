@@ -6,13 +6,20 @@ public class Bullet_control : MonoBehaviour
 {
     //unity 접근 허용
     [SerializeField]
-
     private float movespeed = 10f;
+
+    
+
+    
+    //다른 class 에서도 접근 가능하게 public 변수 선언
+    [SerializeField]
+    public float dmg = 1f;
+
 
     // Start is called before the first frame update
     void Start()
     {   
-        Destroy(gameObject, 2f);
+        Destroy(gameObject, 1.5f);
     }
 
     // Update is called once per frame
